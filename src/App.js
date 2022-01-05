@@ -22,7 +22,7 @@ import { ToastContainer } from "react-toastify";
 import isAuthenticated from "./services/authService";
 
 // -- Component Styles
-import "./styles/app.scss";
+// import "./styles/app.scss";
 
 const PrivateRoute = ({ dispatch, component, ...rest }) => {
   if (!isAuthenticated(JSON.parse(localStorage.getItem("authenticated")))) {

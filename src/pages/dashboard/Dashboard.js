@@ -11,7 +11,7 @@ import {
   UncontrolledDropdown
 } from "reactstrap";
 import Widget from "../../components/Widget/Widget.js";
-import ApexActivityChart from "./components/ActivityChart.js";
+// import ApexActivityChart from "./components/ActivityChart.js";
 
 import meal1 from "../../assets/dashboard/meal-1.svg";
 import meal2 from "../../assets/dashboard/meal-2.svg";
@@ -58,7 +58,7 @@ const Dashboard = () => {
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </div>
-                <ApexActivityChart className="pb-4"/>
+                {/*<ApexActivityChart className="pb-4"/>*/}
               </Widget>
             </Col>
             <Col xs={12} md={6}>
