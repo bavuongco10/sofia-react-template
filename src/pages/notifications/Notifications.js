@@ -8,11 +8,18 @@ import {
   Button,
 } from "reactstrap";
 import Widget from "../../components/Widget/Widget.js";
-import Code from "../../components/Code/Code.js";
 import Notification from "../../components/Notification/Notification.js";
 import s from "./Notifications.module.scss";
 import successIcon from "../../assets/notificationsIcons/successIcon.svg";
 import closeIcon from "../../assets/notificationsIcons/closeIcon.svg";
+
+// import Code from "../../components/Code/Code.js";
+import dynamic from 'next/dynamic'
+const Code = dynamic(
+  () => import("../../components/Code/Code.js"),
+  { ssr: false }
+)
+
 
 const positions = [
   toast.POSITION.TOP_LEFT,
