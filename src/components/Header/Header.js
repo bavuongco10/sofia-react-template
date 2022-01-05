@@ -30,11 +30,9 @@ import MessagesIcon from "../../assets/navbarMenus/pfofileIcons/MessagesIcon";
 import TasksIcon from "../../assets/navbarMenus/pfofileIcons/TasksIcon";
 
 import logoutIcon from "../../assets/navbarMenus/pfofileIcons/logoutOutlined.svg";
-import basketIcon from "../../assets/navbarMenus/basketIcon.svg";
-import calendarIcon from "../../assets/navbarMenus/calendarIcon.svg";
-import envelopeIcon from "../../assets/navbarMenus/envelopeIcon.svg";
-import mariaImage from "../../assets/navbarMenus/mariaImage.jpg";
-import notificationImage from "../../assets/navbarMenus/notificationImage.jpg";
+import basketIcon from "../../../public/basketIcon.svg";
+import calendarIcon from "../../../public/calendarIcon.svg";
+import envelopeIcon from "../../../public/envelopeIcon.svg";
 import userImg from "../../assets/user.svg";
 
 import s from "./Header.module.scss";
@@ -110,13 +108,13 @@ const Header = (props) => {
             <DropdownItem>
               <div>
                 <div className="d-flex flex-row mb-1">
-                  <img src={mariaImage} alt="Maria" className={s.mariaImage} />
+                  <img src="/mariaImage.jpg" alt="Maria" className={s.mariaImage} />
                   <div className="d-flex flex-column">
                     <p className="body-3">Maria</p>
                     <p className="label muted">15 min ago</p>
                   </div>
                 </div>
-                <img src={notificationImage} alt="Notification Icon" className={s.notificationImage}/>
+                <img src="/notificationImage.jpg" alt="Notification Icon" className={s.notificationImage}/>
                 <p className="body-2 muted">It is just a simple image that can define th..</p>
               </div>
             </DropdownItem>

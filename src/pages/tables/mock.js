@@ -1,7 +1,3 @@
-import ellieSmithImg from "../../assets/tables/ellieSmithImg.png";
-import floydMilesImg from "../../assets/tables/floydMilesImg.png";
-import rosaFloresImg from "../../assets/tables/rosaFloresImg.png";
-import janeCooperImg from "../../assets/tables/janeCooper.png";
 import bagIcon from "../../assets/tables/bagIcon.svg";
 import folderIcon from "../../assets/tables/folderIcon.svg";
 import joystickIcon from "../../assets/tables/joystickIcon.svg";
@@ -13,7 +9,7 @@ const mock = {
   firstTable: [
     {
       id: "checkbox111",
-      img: janeCooperImg,
+      img: '/janeCooperImg.jpg',
       name: "Jane Cooper",
       company: "Barrone LLC.",
       city: "Kalamazoo, MI",
@@ -21,7 +17,7 @@ const mock = {
     },
     {
       id: "checkbox112",
-      img: ellieSmithImg,
+      img: '/ellieSmithImg.jpg',
       name: "Ellie Smith",
       company: "Abstergo Ltd.",
       city: "Bainbridge Island, WA",
@@ -29,7 +25,7 @@ const mock = {
     },
     {
       id: "checkbox113",
-      img: rosaFloresImg,
+      img: '/rosaFloresImg.jpg',
       name: "Rosa Flores",
       company: "Binford Ltd.",
       city: "Leucadia, CA",
@@ -37,7 +33,7 @@ const mock = {
     },
     {
       id: "checkbox114",
-      img: floydMilesImg,
+      img: '/floydMilesImg.jpg',
       name: "Floyd Miles",
       company: "Biffco Enterprises Ltd.",
       city: "Idaho city, ID",
@@ -45,7 +41,7 @@ const mock = {
     },
     {
       id: "checkbox121",
-      img: floydMilesImg,
+      img: '/floydMilesImg.jpg',
       name: "Jake Jones",
       company: "Example LLC.",
       city: "Yonkers, NY",
@@ -53,7 +49,7 @@ const mock = {
     },
     {
       id: "checkbox122",
-      img: rosaFloresImg,
+      img: '/rosaFloresImg.jpg',
       name: "Selia Hani",
       company: "Example LLC.",
       city: "Dallas, TX",
@@ -61,7 +57,7 @@ const mock = {
     },
     {
       id: "checkbox123",
-      img: ellieSmithImg,
+      img: '/ellieSmithImg.jpg',
       name: "Rosa Flores",
       company: "Example LLC.",
       city: "Hartford, CT",
@@ -69,7 +65,7 @@ const mock = {
     },
     {
       id: "checkbox124",
-      img: janeCooperImg,
+      img: '/janeCooperImg.jpg',
       name: "Mary Elias",
       company: "Example LLC.",
       city: "Idaho city, ID",
@@ -77,7 +73,7 @@ const mock = {
     },
     {
       id: "checkbox131",
-      img: ellieSmithImg,
+      img: '/ellieSmithImg.jpg',
       name: "Julie Fischer",
       company: "Example LLC.",
       city: "Kalamazoo, MI",
@@ -85,7 +81,7 @@ const mock = {
     },
     {
       id: "checkbox132",
-      img: janeCooperImg,
+      img: '/janeCooperImg.jpg',
       name: "Ellie Smith",
       company: "Example LLC.",
       city: "Bainbridge Island, WA",
@@ -93,7 +89,7 @@ const mock = {
     },
     {
       id: "checkbox133",
-      img: rosaFloresImg,
+      img: '/rosaFloresImg.jpg',
       name: "Rosa Flores",
       company: "Example LLC.",
       city: "Leucadia, CA",
@@ -101,7 +97,7 @@ const mock = {
     },
     {
       id: "checkbox134",
-      img: floydMilesImg,
+      img: '/floydMilesImg.jpg',
       name: "Floyd Miles",
       company: "Example LLC.",
       city: "Idaho city, ID",
@@ -109,7 +105,7 @@ const mock = {
     },
     {
       id: "checkbox141",
-      img: ellieSmithImg,
+      img: '/ellieSmithImg.jpg',
       name: "Rosa Flores",
       company: "Example LLC.",
       city: "Hartford, CT",
@@ -117,7 +113,7 @@ const mock = {
     },
     {
       id: "checkbox142",
-      img: rosaFloresImg,
+      img:'/rosaFloresImg.jpg',
       name: "Selia Hani",
       company: "Example LLC.",
       city: "Dallas, TX",
@@ -125,7 +121,7 @@ const mock = {
     },
     {
       id: "checkbox143",
-      img: janeCooperImg,
+      img:'/janeCooperImg.jpg',
       name: "Julie Fischer",
       company: "Example LLC.",
       city: "Kalamazoo, MI",
@@ -133,7 +129,7 @@ const mock = {
     },
     {
       id: "checkbox144",
-      img: floydMilesImg,
+      img:'/floydMilesImg.jpg',
       name: "Floyd Miles",
       company: "Example LLC.",
       city: "Idaho city, ID",
