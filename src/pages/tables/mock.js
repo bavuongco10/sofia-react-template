@@ -9,7 +9,7 @@ const mock = {
   firstTable: [
     {
       id: "checkbox111",
-      img: '/janeCooperImg.jpg',
+      img: '/janeCooper.png',
       name: "Jane Cooper",
       company: "Barrone LLC.",
       city: "Kalamazoo, MI",
@@ -17,7 +17,7 @@ const mock = {
     },
     {
       id: "checkbox112",
-      img: '/ellieSmithImg.jpg',
+      img: '/ellieSmithImg.png',
       name: "Ellie Smith",
       company: "Abstergo Ltd.",
       city: "Bainbridge Island, WA",
@@ -25,7 +25,7 @@ const mock = {
     },
     {
       id: "checkbox113",
-      img: '/rosaFloresImg.jpg',
+      img: '/rosaFloresImg.png',
       name: "Rosa Flores",
       company: "Binford Ltd.",
       city: "Leucadia, CA",
@@ -33,7 +33,7 @@ const mock = {
     },
     {
       id: "checkbox114",
-      img: '/floydMilesImg.jpg',
+      img: '/floydMilesImg.png',
       name: "Floyd Miles",
       company: "Biffco Enterprises Ltd.",
       city: "Idaho city, ID",
@@ -41,7 +41,7 @@ const mock = {
     },
     {
       id: "checkbox121",
-      img: '/floydMilesImg.jpg',
+      img: '/floydMilesImg.png',
       name: "Jake Jones",
       company: "Example LLC.",
       city: "Yonkers, NY",
@@ -49,7 +49,7 @@ const mock = {
     },
     {
       id: "checkbox122",
-      img: '/rosaFloresImg.jpg',
+      img: '/rosaFloresImg.png',
       name: "Selia Hani",
       company: "Example LLC.",
       city: "Dallas, TX",
@@ -57,7 +57,7 @@ const mock = {
     },
     {
       id: "checkbox123",
-      img: '/ellieSmithImg.jpg',
+      img: '/ellieSmithImg.png',
       name: "Rosa Flores",
       company: "Example LLC.",
       city: "Hartford, CT",
@@ -65,7 +65,7 @@ const mock = {
     },
     {
       id: "checkbox124",
-      img: '/janeCooperImg.jpg',
+      img: '/janeCooperImg.png',
       name: "Mary Elias",
       company: "Example LLC.",
       city: "Idaho city, ID",
@@ -73,7 +73,7 @@ const mock = {
     },
     {
       id: "checkbox131",
-      img: '/ellieSmithImg.jpg',
+      img: '/ellieSmithImg.png',
       name: "Julie Fischer",
       company: "Example LLC.",
       city: "Kalamazoo, MI",
@@ -81,7 +81,7 @@ const mock = {
     },
     {
       id: "checkbox132",
-      img: '/janeCooperImg.jpg',
+      img: '/janeCooperImg.png',
       name: "Ellie Smith",
       company: "Example LLC.",
       city: "Bainbridge Island, WA",
@@ -89,7 +89,7 @@ const mock = {
     },
     {
       id: "checkbox133",
-      img: '/rosaFloresImg.jpg',
+      img: '/rosaFloresImg.png',
       name: "Rosa Flores",
       company: "Example LLC.",
       city: "Leucadia, CA",
@@ -97,7 +97,7 @@ const mock = {
     },
     {
       id: "checkbox134",
-      img: '/floydMilesImg.jpg',
+      img: '/floydMilesImg.png',
       name: "Floyd Miles",
       company: "Example LLC.",
       city: "Idaho city, ID",
@@ -105,7 +105,7 @@ const mock = {
     },
     {
       id: "checkbox141",
-      img: '/ellieSmithImg.jpg',
+      img: '/ellieSmithImg.png',
       name: "Rosa Flores",
       company: "Example LLC.",
       city: "Hartford, CT",
@@ -113,7 +113,7 @@ const mock = {
     },
     {
       id: "checkbox142",
-      img:'/rosaFloresImg.jpg',
+      img:'/rosaFloresImg.png',
       name: "Selia Hani",
       company: "Example LLC.",
       city: "Dallas, TX",
@@ -121,7 +121,7 @@ const mock = {
     },
     {
       id: "checkbox143",
-      img:'/janeCooperImg.jpg',
+      img:'/janeCooperImg.png',
       name: "Julie Fischer",
       company: "Example LLC.",
       city: "Kalamazoo, MI",
@@ -129,7 +129,7 @@ const mock = {
     },
     {
       id: "checkbox144",
-      img:'/floydMilesImg.jpg',
+      img:'/floydMilesImg.png',
       name: "Floyd Miles",
       company: "Example LLC.",
       city: "Idaho city, ID",
